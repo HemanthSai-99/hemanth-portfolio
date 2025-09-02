@@ -6,19 +6,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'alex.johnson@email.com',
-      href: 'mailto:alex.johnson@email.com'
+      value: 'hemanthsaitholikonda99@email.com',
+      href: 'mailto:hemanthsaitholikonda@99@email.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+91 8050705390',
+      href: 'mobile : 8050705390'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Warangal, Telangana',
       href: '#'
     }
   ];
@@ -32,13 +32,13 @@ const Contact = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      href: '#'
+      href: 'https://github.com/HemanthSai-99/hemanth-portfolio'
     },
-    {
-      icon: <Twitter className="w-6 h-6" />,
-      label: 'Twitter',
-      href: '#'
-    }
+    // {
+    //   icon: <Twitter className="w-6 h-6" />,
+    //   label: 'Twitter',
+    //   href: '#'
+    // }
   ];
 
   return (
