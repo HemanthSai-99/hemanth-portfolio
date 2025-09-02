@@ -3,10 +3,10 @@ import { Code, Palette, Users, Zap } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { category: 'Frontend', items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js'] },
-    { category: 'Backend', items: ['Node.js', 'Python', 'PostgreSQL', 'MongoDB'] },
-    { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Figma'] },
-    { category: 'Soft Skills', items: ['Problem Solving', 'Team Leadership', 'Communication', 'Agile'] }
+    { category: 'Manual Testing', items: ['SDLC', 'STLC', 'Test Case Design', 'Defect reporting'] },
+    { category: 'Automation', items: ['Selenium WebDriver'] },
+    { category: 'Tools', items: ['Git', 'Selenium', 'MS Office'] },
+    { category: 'Soft Skills', items: ['Problem Solving', 'Communication', 'Agile'] }
   ];
 
   const highlights = [
