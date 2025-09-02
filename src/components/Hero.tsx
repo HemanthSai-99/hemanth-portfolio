@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="mb-8 flex justify-center">
           <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
             <img
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="https://lh3.googleusercontent.com/a/ACg8ocLlhVaE0xUzA8p1tUUbflRAtqBRjPG3lznq8cjWuAwdazUhg9s=s288-c-no"
               alt="Alex Johnson"
               className="w-full h-full object-cover"
             />
@@ -37,8 +37,8 @@ const Hero = () => {
         </p>
         
         <p className="text-lg text-blue-200 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-delay-2">
-          Passionate about creating beautiful, functional web applications that solve real-world problems. 
-          Specializing in React, Node.js, and modern design principles.
+         Proven ability to design and execute comprehensive test plans, identify
+and document bugs, and collaborate with cross-functional teams to ensure highquality software delivery
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-3">
