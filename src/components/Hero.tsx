@@ -29,11 +29,11 @@ const Hero = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-          Alex Johnson
+          Hemanth Sai Tholikonda
         </h1>
         
         <p className="text-xl md:text-2xl text-blue-100 mb-4 animate-fade-in-delay-1">
-          Full Stack Developer & UI/UX Designer
+          Software Tester || Manual || Automation
         </p>
         
         <p className="text-lg text-blue-200 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in-delay-2">
