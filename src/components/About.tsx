@@ -40,9 +40,10 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate developer with 5+ years of experience building web applications 
-            that combine beautiful design with robust functionality. I love turning complex 
-            problems into simple, elegant solutions.
+Detail-oriented and results-driven Software Test Engineer with hands-on
+experience in both manual testing and automation testing using Selenium
+WebDriver. Proven ability to design and execute comprehensive test plans, identify
+and document bugs, and collaborate with cross-functional teams to ensure highquality software delivery.
           </p>
         </div>
 
