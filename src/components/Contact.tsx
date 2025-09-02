@@ -27,7 +27,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: 'LinkedIn',
-      href: '#'
+      href: 'https://www.linkedin.com/in/hemanth-sai-tholikonda-8935a3366?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmX5PU%2Fw9TnOujsE47M3WPQ%3D%3D'
     },
     {
       icon: <Github className="w-6 h-6" />,
