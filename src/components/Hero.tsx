@@ -56,10 +56,15 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
             <Mail size={20} />
             Get In Touch
           </button>
-          <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300 flex items-center gap-2">
-            <Download size={20} />
-            Download Resume
-          </button>
+         <a
+  href="/resume.pdf"
+  download="Hemanth_Sai_Resume.pdf"
+  className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300 flex items-center gap-2"
+>
+  <Download size={20} />
+  Download Resume
+</a>
+
         </div>
       </div>
 
