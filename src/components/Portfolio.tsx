@@ -4,9 +4,9 @@ import { ExternalLink, Github } from 'lucide-react';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'EcommerceHub',
-      description: 'A modern e-commerce platform built with React and Node.js, featuring real-time inventory management, secure payments, and an intuitive admin dashboard.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Adactin Hotel App',
+      description: 'Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.',
+      image: 'https://adactinhotelapp.com/',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
       liveUrl: '#',
       githubUrl: '#'
