@@ -8,7 +8,7 @@ const Experience = () => {
       company: 'Attivo Technology Solutions',
       location: 'Hyderabad, Telangana',
       period: '05/25 - Present',
-      description: 'Started my career at Attivo as Sofware Tester ',
+      description: 'I started my career at Attivo Technology Solutions as a Software Tester, where I gained hands-on experience in manual and automation testing. ',
       achievements: [
         'Performed end to end testing for an hotel booking app',
         'Productively used skills like manual testing and defect tracking',
