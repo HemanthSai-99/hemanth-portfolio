@@ -96,17 +96,6 @@ const Portfolio = () => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-16">
-          <p className="text-gray-600 mb-6">Want to see more of my work?</p>
-          <a
-            href="#"
-            className="inline-flex items-center gap-2 bg-blue-900 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-800 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            <Github size={20} />
-            View All Projects on GitHub
-          </a>
-        </div>
       </div>
     </section>
   );
