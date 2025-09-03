@@ -11,30 +11,30 @@ const Portfolio = () => {
       liveUrl: '#',
       githubUrl: '#'
     },
-    {
-      title: 'TaskFlow Pro',
-      description: 'A collaborative project management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
-      image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'WebSocket'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'WeatherWise',
-      description: 'A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts using modern APIs.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Vue.js', 'Express', 'MongoDB', 'OpenWeather API'],
-      liveUrl: '#',
-      githubUrl: '#'
-    },
-    {
-      title: 'FinanceTracker',
-      description: 'Personal finance management app with expense tracking, budget planning, investment monitoring, and detailed financial analytics.',
-      image: 'https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React Native', 'Firebase', 'Chart.js', 'Plaid API'],
-      liveUrl: '#',
-      githubUrl: '#'
-    }
+    // {
+    //   title: 'TaskFlow Pro',
+    //   description: 'A collaborative project management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
+    //   image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   technologies: ['Next.js', 'TypeScript', 'Prisma', 'WebSocket'],
+    //   liveUrl: '#',
+    //   githubUrl: '#'
+    // },
+    // {
+    //   title: 'WeatherWise',
+    //   description: 'A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts using modern APIs.',
+    //   image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   technologies: ['Vue.js', 'Express', 'MongoDB', 'OpenWeather API'],
+    //   liveUrl: '#',
+    //   githubUrl: '#'
+    // },
+    // {
+    //   title: 'FinanceTracker',
+    //   description: 'Personal finance management app with expense tracking, budget planning, investment monitoring, and detailed financial analytics.',
+    //   image: 'https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=800',
+    //   technologies: ['React Native', 'Firebase', 'Chart.js', 'Plaid API'],
+    //   liveUrl: '#',
+    //   githubUrl: '#'
+    // }
   ];
 
   return (
