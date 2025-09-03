@@ -53,14 +53,10 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
             <h3 className="text-2xl font-bold text-gray-900 mb-6">My Journey</h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Started my journey in computer science with a deep curiosity about how technology 
-                can improve people's lives. What began as tinkering with HTML and CSS evolved into 
-                a passion for creating full-stack applications.
+                Started my journey as Manual Tester, where i built a strong foundation in understamding software requirements, test planning and executing detailed test cases.
               </p>
               <p>
-                Over the years, I've worked with startups and established companies, contributing 
-                to products used by thousands of users. I believe in writing code that's not just 
-                functional, but also maintainable and scalable.
+              
               </p>
               <p>
                 When I'm not coding, you can find me exploring new design trends, contributing to 
