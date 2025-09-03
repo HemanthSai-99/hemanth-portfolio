@@ -69,12 +69,12 @@ const Portfolio = () => {
                   >
                     <ExternalLink size={20} className="text-gray-700" />
                   </a>
-                  <a
+                  {/* <a
                     href={project.githubUrl}
                     className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                   >
                     <Github size={20} className="text-gray-700" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
