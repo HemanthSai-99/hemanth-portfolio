@@ -53,7 +53,7 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
             <h3 className="text-2xl font-bold text-gray-900 mb-6">My Journey</h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Started my journey as Manual Tester, where i built a strong foundation in understamding software requirements, test planning and executing detailed test cases.
+                Started my journey as Manual Tester, where I built a strong foundation in understamding software requirements, test planning and executing detailed test cases.
               </p>
               <p>
               Over time, my curiosity and passion for improving effeciency led me to explore the Automation Testing.Today, I am growing my skills in automation, focusing on buliding reliable test scripts and frameworks to ensure high-quality software delivery.
