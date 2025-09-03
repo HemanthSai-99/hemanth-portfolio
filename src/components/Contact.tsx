@@ -166,7 +166,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-20 pt-8 border-t border-white/20 text-center">
           <p className="text-blue-200">
-            © 2025 Alex Johnson. Built with React, TypeScript, and Tailwind CSS.
+            © 2025 Hemanth Sai Tholikonda. Built with React, TypeScript, and Tailwind CSS.
           </p>
         </div>
       </div>
