@@ -7,7 +7,7 @@ const Portfolio = () => {
       title: 'Adactin Hotel App',
       description: 'Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.',
       image: 'https://adactinhotelapp.com/',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
+      technologies: ['Manual Testing', 'Defect Tracking'],
       liveUrl: '#',
       githubUrl: '#'
     },
