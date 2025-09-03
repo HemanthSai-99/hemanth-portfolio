@@ -56,11 +56,10 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
                 Started my journey as Manual Tester, where i built a strong foundation in understamding software requirements, test planning and executing detailed test cases.
               </p>
               <p>
-              
+              Over time, my curiosity and passion for improving effeciency led me to explore the Automation Testing.Today, I am growing my skills in automation, focusing on buliding reliable test scripts and frameworks to ensure high-quality software delivery.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new design trends, contributing to 
-                open-source projects, or mentoring aspiring developers in my community.
+               I am always ready to take on new challenges, adapt to evolvingntechnologies and contribute to delivering seamless user experiences thriugh effective testing     
               </p>
             </div>
           </div>
