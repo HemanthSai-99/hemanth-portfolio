@@ -4,49 +4,49 @@ import { Calendar, MapPin, Award } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'TechCorp Solutions',
-      location: 'San Francisco, CA',
-      period: '2022 - Present',
-      description: 'Lead development of enterprise web applications serving 50K+ users. Architected microservices infrastructure and mentored junior developers.',
+      title: 'Software Tester',
+      company: 'Attivo Technology Solutions',
+      location: 'Hyderabad, Telangana',
+      period: '05/25 - Present',
+      description: 'Started my career at Attivo as Sofware Tester ',
       achievements: [
-        'Improved application performance by 40% through code optimization',
-        'Led team of 5 developers on critical product launches',
-        'Implemented CI/CD pipeline reducing deployment time by 60%'
+        'Performed end to end testing for an hotel booking app',
+        'Productively used skills like manual testing and defect tracking',
+       // 'Implemented CI/CD pipeline reducing deployment time by 60%'
       ]
     },
-    {
-      title: 'Frontend Developer',
-      company: 'StartupX',
-      location: 'Austin, TX',
-      period: '2020 - 2022',
-      description: 'Developed responsive web applications using React and modern frontend technologies. Collaborated closely with design team to implement pixel-perfect UIs.',
-      achievements: [
-        'Built 15+ responsive web applications from scratch',
-        'Reduced bundle size by 30% through optimization techniques',
-        'Implemented accessibility features improving WCAG compliance'
-      ]
-    },
-    {
-      title: 'Junior Web Developer',
-      company: 'Digital Agency Pro',
-      location: 'Remote',
-      period: '2019 - 2020',
-      description: 'Created custom websites and web applications for diverse clients. Gained experience in full project lifecycle from requirements to deployment.',
-      achievements: [
-        'Delivered 20+ client projects on time and within budget',
-        'Achieved 98% client satisfaction rating',
-        'Learned and implemented 5+ new technologies'
-      ]
-    }
+    // {
+    //   title: 'Frontend Developer',
+    //   company: 'StartupX',
+    //   location: 'Austin, TX',
+    //   period: '2020 - 2022',
+    //   description: 'Developed responsive web applications using React and modern frontend technologies. Collaborated closely with design team to implement pixel-perfect UIs.',
+    //   achievements: [
+    //     'Built 15+ responsive web applications from scratch',
+    //     'Reduced bundle size by 30% through optimization techniques',
+    //     'Implemented accessibility features improving WCAG compliance'
+    //   ]
+    // },
+    // {
+    //   title: 'Junior Web Developer',
+    //   company: 'Digital Agency Pro',
+    //   location: 'Remote',
+    //   period: '2019 - 2020',
+    //   description: 'Created custom websites and web applications for diverse clients. Gained experience in full project lifecycle from requirements to deployment.',
+    //   achievements: [
+    //     'Delivered 20+ client projects on time and within budget',
+    //     'Achieved 98% client satisfaction rating',
+    //     'Learned and implemented 5+ new technologies'
+    //   ]
+    // }
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      school: 'University of California, Berkeley',
-      period: '2015 - 2019',
-      honors: 'Magna Cum Laude'
+      degree: 'Bachelor of Technology in Mechnical Engineering',
+      school: 'MLR Insitute of Technology',
+      period: '2019 - 2021',
+     // honors: 'Magna Cum Laude'
     }
   ];
 
