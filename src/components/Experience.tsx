@@ -50,11 +50,11 @@ const Experience = () => {
     }
   ];
 
-  const certifications = [
-    'AWS Certified Developer Associate',
-    'Google UX Design Certificate',
-    'Meta React Developer Certificate'
-  ];
+  // const certifications = [
+  //   'AWS Certified Developer Associate',
+  //   'Google UX Design Certificate',
+  //   'Meta React Developer Certificate'
+  // ];
 
   return (
     <section id="experience" className="py-20 bg-gray-50">
