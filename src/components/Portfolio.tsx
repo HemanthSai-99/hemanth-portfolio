@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Portfolio = () => {
   const projects = [
     {
-      title: 'Adactin Hotel App',
+      title: 'Adactin Hotel Application',
       description: 'Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.',
       image: 'https://adactinhotelapp.com/img/main-image-hotel-app.jpeg',
       technologies: ['Manual Testing', 'Defect Tracking'],
