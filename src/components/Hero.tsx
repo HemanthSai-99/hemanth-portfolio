@@ -15,7 +15,7 @@ const Hero = () => {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
+h
   return (
     <section className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-emerald-700 flex items-center justify-center relative overflow-hidden">
       {/* Background Pattern */}
