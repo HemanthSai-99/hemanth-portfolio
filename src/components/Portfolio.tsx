@@ -63,18 +63,18 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
+                  {/* <a
                     href={project.liveUrl}
                     className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                   >
                     <ExternalLink size={20} className="text-gray-700" />
-                  </a>
-                  {/* <a
+                  </a> */}
+                  <a
                     href={project.githubUrl}
                     className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                   >
                     <Github size={20} className="text-gray-700" />
-                  </a> */}
+                  </a>
                 </div>
               </div>
 
