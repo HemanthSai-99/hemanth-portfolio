@@ -57,7 +57,7 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
             Get In Touch
           </button>
          <a
-  href="/resume.pdf"
+            href="/Hemanth_Sai_Tholikonda_Resume.pdf"
   download="Hemanth_Sai_Resume.pdf"
   className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-blue-900 transition-all duration-300 flex items-center gap-2"
 >
