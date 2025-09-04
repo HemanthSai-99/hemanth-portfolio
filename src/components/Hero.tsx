@@ -57,7 +57,7 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
             Get In Touch
           </button>
          <a
-  href="https://github.com/HemanthSai-99/hemanth_resume/blob/main/Hemanth_Tester.pdf" // raw link for direct download
+  href="https://github.com/HemanthSai-99/hemanth_resume/blob/d6471342f776ed3be25bd4c2f831bee6684956f9/Hemanth_Tester.pdf" // raw link for direct download
   download="Hemanth_Tester.pdf"
   target="_blank"
   rel="noopener noreferrer"
