@@ -2,6 +2,52 @@ import React from 'react';
 import { Mail, Phone, MapPin, Linkedin, Github, Twitter } from 'lucide-react';
 
 const Contact = () => {
+  const [formData, setFormData] = React.useState({
+    name: '',
+    email: '',
+    subject: '',
+    message: ''
+  });
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+  const [submitStatus, setSubmitStatus] = React.useState<'idle' | 'success' | 'error'>('idle');
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    try {
+      const response = await fetch(`${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
@@ -58,7 +104,24 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-white mb-6">Send me a message</h3>
-            <form className="space-y-6">
+            
+            {submitStatus === 'success' && (
+              <div className="mb-6 p-4 bg-emerald-500/20 border border-emerald-400/30 rounded-lg">
+                <p className="text-emerald-100 text-sm">
+                  ✓ Message sent successfully! I'll get back to you soon.
+                </p>
+              </div>
+            )}
+            
+            {submitStatus === 'error' && (
+              <div className="mb-6 p-4 bg-red-500/20 border border-red-400/30 rounded-lg">
+                <p className="text-red-100 text-sm">
+                  ✗ Failed to send message. Please try again or contact me directly.
+                </p>
+              </div>
+            )}
+            
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-blue-100 mb-2">
@@ -67,8 +130,12 @@ const Contact = () => {
                   <input
                     type="text"
                     id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200"
                     placeholder="Your name"
+                    required
                   />
                 </div>
                 <div>
@@ -78,8 +145,12 @@ const Contact = () => {
                   <input
                     type="email"
                     id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
                     className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200"
                     placeholder="your.email@example.com"
+                    required
                   />
                 </div>
               </div>
@@ -90,8 +161,12 @@ const Contact = () => {
                 <input
                   type="text"
                   id="subject"
+                  name="subject"
+                  value={formData.subject}
+                  onChange={handleInputChange}
                   className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200"
                   placeholder="Project collaboration"
+                  required
                 />
               </div>
               <div>
@@ -100,16 +175,21 @@ const Contact = () => {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
                   rows={6}
                   className="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200 resize-none"
                   placeholder="Tell me about your project..."
+                  required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full bg-emerald-600 text-white py-4 rounded-lg font-semibold hover:bg-emerald-500 transform hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl"
+                disabled={isSubmitting}
+                className="w-full bg-emerald-600 text-white py-4 rounded-lg font-semibold hover:bg-emerald-500 transform hover:scale-[1.02] transition-all duration-300 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
               >
-                Send Message
+                {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           </div>
