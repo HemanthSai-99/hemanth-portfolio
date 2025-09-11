@@ -11,14 +11,14 @@ const Portfolio = () => {
       liveUrl: 'https://adactinhotelapp.com/',
       githubUrl: '#'
     },
-    // {
-    //   title: 'TaskFlow Pro',
-    //   description: 'A collaborative project management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
-    //   image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   technologies: ['Next.js', 'TypeScript', 'Prisma', 'WebSocket'],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
-    // },
+    {
+      title: 'Orange HRM',
+      description: 'A collaborative human resource management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
+      image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
+      liveUrl: 'https://www.orangehrm.com/',
+      gith
+    },
     // {
     //   title: 'WeatherWise',
     //   description: 'A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts using modern APIs.',
