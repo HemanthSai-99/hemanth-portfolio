@@ -17,7 +17,7 @@ const Portfolio = () => {
       image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
       liveUrl: 'https://www.orangehrm.com/',
-      gith
+      githubUrl: '#'
     },
     // {
     //   title: 'WeatherWise',
