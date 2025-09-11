@@ -59,11 +59,13 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
         {/* Resume Download Button */}
           <div className="hidden md:block">
           <a
+  )
   href="https://github.com/HemanthSai-99/hemanth-portfolio/blob/main/Hemanth_Tester.docx" // raw link for direct download
   download="Hemanth_Tester.docx"
   target="_blank"
   rel="noopener noreferrer"
  className="bg-blue-700 hover:bg-blue-800 text-white px-6 py-2 rounded-full text-sm font-medium transition-all duration-200 transform hover:scale-105 flex items-center space-x-2"
+}
 >
   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-4-4m4 4l4-4m6 5a9 9 0 11-18 0 9 9 0 0118 0z" />
