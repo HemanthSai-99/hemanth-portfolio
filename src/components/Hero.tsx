@@ -70,6 +70,7 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
 </a>
 
 
+          </div>
         </div>
       </div>
 
