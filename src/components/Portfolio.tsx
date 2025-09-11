@@ -9,7 +9,7 @@ const Portfolio = () => {
       image: 'https://adactinhotelapp.com/img/main-image-hotel-app.jpeg',
       technologies: ['Manual Testing', 'Defect Tracking'],
       liveUrl: 'https://adactinhotelapp.com/',
-      githubUrl: '#'
+      //githubUrl: '#'
     },
     {
       title: 'Orange HRM',
@@ -17,7 +17,7 @@ const Portfolio = () => {
       image: 'https://www.orangehrm.com/public/_resources/themes/orangehrm/dist/images/OrangeHRM_Logo.svg',
       technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
       liveUrl: 'https://www.orangehrm.com/',
-      githubUrl: '#'
+     // githubUrl: '#'
     },
     // {
     //   title: 'WeatherWise',
