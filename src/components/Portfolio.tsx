@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       title: 'Orange HRM',
       description: 'A collaborative human resource management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
-      image: 'https://www.orangehrm.com/public/_resources/themes/orangehrm/dist/images/OrangeHRM_Logo.svg',
+      image: 'https://www.turnkeylinux.org/files/modules/image/orangehrm_18.0-login.jpg',
       technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
       liveUrl: 'https://www.orangehrm.com/',
      // githubUrl: '#'
