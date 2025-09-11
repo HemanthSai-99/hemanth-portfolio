@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       title: 'Orange HRM',
       description: 'A collaborative human resource management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
-      image: 'https://images.pexels.com/photos/3184611/pexels-photo-3184611.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://www.orangehrm.com/public/_resources/themes/orangehrm/dist/images/OrangeHRM_Logo.svg',
       technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
       liveUrl: 'https://www.orangehrm.com/',
       githubUrl: '#'
