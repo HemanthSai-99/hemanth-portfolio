@@ -11,7 +11,10 @@ const Experience = () => {
       description: 'I started my career at Attivo Technology Solutions as a Software Tester, where I gained hands-on experience in manual and automation testing. ',
       achievements: [
         'Performed end to end testing for an hotel booking app',
+        'Performed end to end testing for an human resource management system',
         'Productively used skills like manual testing and defect tracking',
+        'Productively used Automation skills like Selenium WebDriver',
+        
        // 'Implemented CI/CD pipeline reducing deployment time by 60%'
       ]
     },
