@@ -81,17 +81,6 @@ and document bugs, and collaborate with cross-functional teams to ensure highqua
       >
         <ChevronDown size={32} />
       </button>
-
-      <style jsx>{`
-        @keyframes fade-in {
-          from { opacity: 0; transform: translateY(30px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade-in { animation: fade-in 1s ease-out; }
-        .animate-fade-in-delay-1 { animation: fade-in 1s ease-out 0.2s both; }
-        .animate-fade-in-delay-2 { animation: fade-in 1s ease-out 0.4s both; }
-        .animate-fade-in-delay-3 { animation: fade-in 1s ease-out 0.6s both; }
-      `}</style>
     </section>
   );
 };
