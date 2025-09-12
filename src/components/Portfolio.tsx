@@ -13,11 +13,11 @@ const Portfolio = () => {
       githubUrl: '#'
     },
     {
-      title: 'Orange HRM',
-      description: 'A collaborative human resource management tool with real-time updates, team collaboration features, and advanced analytics for productivity tracking.',
-      image: 'https://www.turnkeylinux.org/files/modules/image/orangehrm_18.0-login.jpg',
+      title: 'EatClub',
+      description: 'EatClub is a food ordering & delivery platform connecting customers, restaurants, and delivery partners. The application consists of multiple modules such as Customer, Restaurant/Vendor, Delivery/Rider, Admin, Payment, and Notifications, providing seamless end-to-end food ordering and delivery services.',
+      image: 'https://assets.box8.co.in/logo/eatclub/eatclub_logo.png',
       technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
-      liveUrl: 'https://www.orangehrm.com/',
+      liveUrl: 'https://eatclub.in/',
       githubUrl: '#'
     },
     // {
