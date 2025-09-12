@@ -41,7 +41,6 @@ const Portfolio = () => {
           'Postman (API Testing)',
           'Selenium WebDriver',
           'JIRA',
-          'TestRail'
         ]
       },
       role: 'Software Tester (Manual + API Testing)',
