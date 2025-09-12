@@ -6,7 +6,7 @@ const Portfolio = () => {
     {
     
       title: 'Adactin Hotel Application',
-      description: 'Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.
+      description: `Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.
         Technologies:
 
 Frontend: HTML, CSS, JavaScript
@@ -15,7 +15,7 @@ Middleware: Java (Servlets, JSP)
 
 Backend: MySQL Database
 
-Testing Tools: Selenium WebDriver, TestNG, JIRA',
+Testing Tools: Selenium WebDriver, TestNG, JIRA`,
       image: 'https://adactinhotelapp.com/img/main-image-hotel-app.jpeg',
       technologies: ['Manual Testing', 'Defect Tracking'],
       liveUrl: 'https://adactinhotelapp.com/',
