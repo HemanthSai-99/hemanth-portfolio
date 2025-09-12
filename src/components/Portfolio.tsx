@@ -4,38 +4,46 @@ import { ExternalLink, Github } from 'lucide-react';
 const Portfolio = () => {
   const projects = [
     {
-    
-      title: 'Adactin Hotel Application',
-      description: 'Performed end-to-end testing on Adactin Hotel App including login, hotel search, booking, and payment workflows. Covered functional, UI, and regression testing scenarios.',
+      title: 'Adactin Hotel Management Application',
+      description:
+        'Adactin Hotel App is an online hotel booking platform that enables users to register, login, search, book, and cancel hotels. QA scope included functional & regression testing with manual and automation coverage using Selenium WebDriver.',
       image: 'https://adactinhotelapp.com/img/main-image-hotel-app.jpeg',
-      technologies: ['Manual Testing', 'Defect Tracking'],
+      technologies: [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'Java (Servlets, JSP)',
+        'MySQL',
+        'Manual Testing',
+        'Selenium WebDriver',
+        'TestNG',
+        'JIRA'
+      ],
       liveUrl: 'https://adactinhotelapp.com/',
       githubUrl: '#'
     },
     {
-      title: 'EatClub',
-      description: 'EatClub is a food ordering & delivery platform connecting customers, restaurants, and delivery partners. The application consists of multiple modules such as Customer, Restaurant/Vendor, Delivery/Rider, Admin, Payment, and Notifications, providing seamless end-to-end food ordering and delivery services.',
+      title: 'EatClub.in – Food Ordering & Delivery Platform',
+      description:
+        'EatClub is an end-to-end food ordering and delivery platform connecting customers, restaurants, and delivery partners. It includes modules like Customer, Vendor, Delivery Partner, Admin, Payments, and Notifications.',
       image: 'https://assets.box8.co.in/logo/eatclub/eatclub_logo.png',
-      technologies: ['Manual Testing', 'Defect Tracking', 'Selenium WebDriver'],
+      technologies: [
+        'React.js',
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'Node.js',
+        'REST APIs',
+        'MySQL',
+        'Manual Testing',
+        'Postman (API Testing)',
+        'Selenium WebDriver',
+        'JIRA',
+        'TestRail'
+      ],
       liveUrl: 'https://eatclub.in/',
       githubUrl: '#'
-    },
-    // {
-    //   title: 'WeatherWise',
-    //   description: 'A beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts using modern APIs.',
-    //   image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   technologies: ['Vue.js', 'Express', 'MongoDB', 'OpenWeather API'],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
-    // },
-    // {
-    //   title: 'FinanceTracker',
-    //   description: 'Personal finance management app with expense tracking, budget planning, investment monitoring, and detailed financial analytics.',
-    //   image: 'https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=800',
-    //   technologies: ['React Native', 'Firebase', 'Chart.js', 'Plaid API'],
-    //   liveUrl: '#',
-    //   githubUrl: '#'
-    // }
+    }
   ];
 
   return (
@@ -46,12 +54,13 @@ const Portfolio = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            A selection of projects that showcase my technical skills and creative problem-solving abilities.
+            A selection of projects that showcase my technical skills and
+            creative problem-solving abilities.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <div
               key={project.title}
               className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100"
@@ -64,14 +73,19 @@ const Portfolio = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  {/* Uncomment if you want Live Demo link */}
                   {/* <a
                     href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                   >
                     <ExternalLink size={20} className="text-gray-700" />
                   </a> */}
                   <a
                     href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-2 bg-white/90 rounded-full hover:bg-white transition-colors duration-200"
                   >
                     <Github size={20} className="text-gray-700" />
@@ -80,9 +94,13 @@ const Portfolio = () => {
               </div>
 
               <div className="p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{project.title}</h3>
-                <p className="text-gray-600 mb-6 leading-relaxed">{project.description}</p>
-                
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  {project.title}
+                </h3>
+                <p className="text-gray-600 mb-6 leading-relaxed">
+                  {project.description}
+                </p>
+
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
                     <span
